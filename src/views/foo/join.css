@@ -1,0 +1,112 @@
+.join-tips {
+    width: 100%;
+    height: 300px;
+    line-height: 300px;
+    color: #3c58ff;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0px 8px 14px 0px rgba(153, 153, 153, 0.5);
+  }
+  .main-content {
+    padding: 87px 20px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .main-content .type-list {
+    width: 320px;
+    margin-right: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(153, 153, 153, 0.5);
+    padding-bottom: 80px;
+  }
+  .main-content .type-list .item {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .main-content .type-list .item.active,
+  .main-content .type-list .item:hover {
+    background-color: rgba(60, 88, 255, 0.3);
+  }
+  .main-content .type-list .item.active {
+    border-right: 4px solid #3C58FF;
+  }
+  .main-content .job-list {
+    flex: 1;
+    /*display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          height: 100%;
+          overflow: auto;
+          width:1000px;
+          overflow: auto;
+  
+          column-count: 2;
+          column-gap: 40px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main-content .job-list .item {
+    width: 500px;
+    padding: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    box-sizing: border-box;
+    break-inside: avoid;
+    overflow: auto;
+  }
+  .main-content .job-list .item .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .main-content .job-list .item .title .title-name {
+    display: flex;
+    align-items: baseline;
+  }
+  .main-content .job-list .item .title .title-name .job-name {
+    font-size: 30px;
+    line-height: 42px;
+    margin-right: 30px;
+  }
+  .main-content .job-list .item .title .title-name .job-num {
+    color: #666;
+  }
+  .main-content .job-list .item .desc-line {
+    max-height: 170px;
+    overflow: hidden;
+  }
+  .main-content .job-list .item .act-btns a {
+    display: none;
+    width: 50px;
+    height: 50px;
+    /* background: url(../../images/ico.png); */
+  }
+  .main-content .job-list .item .act-btns a.fold-link {
+    background-position: -307px -166px;
+  }
+  .main-content .job-list .item .act-btns a.unfold-link {
+    background-position: -357px -166px;
+  }
+  .main-content .job-list .item .act-btns a.show {
+    display: inline-block;
+  }
+  .main-content .job-list .item:hover,
+  .main-content .job-list .item.unfold {
+    border-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(153, 153, 153, 0.5);
+  }
+  .main-content .job-list .item.unfold {
+    height: auto;
+  }
+  .main-content .job-list .item.unfold .desc-line {
+    max-height: initial;
+  }
+  

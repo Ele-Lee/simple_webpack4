@@ -1,0 +1,110 @@
+/*该页通用企业信息展示*/
+.enterprise-info .header {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+}
+.enterprise-info .desc {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-top: 10px;
+}
+.enterprise-info .content {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 24px;
+}
+/*企业介绍*/
+.enterprise-introduction {
+  width: 100%;
+  height: 732px;
+  padding: 0 20px;
+  box-shadow: 0px 8px 14px 0px rgba(153, 153, 153, 0.5);
+  display: flex;
+  align-items: center;
+}
+.enterprise-introduction .img-block img {
+  width: 600px;
+  height: 480px;
+}
+.enterprise-introduction .text-block {
+  width: 480px;
+  margin-left: 140px;
+}
+/*企业精神愿景*/
+.enterprise-spirit {
+  width: 100%;
+  height: 730px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.enterprise-spirit .img-block {
+  width: 600px;
+}
+.enterprise-spirit .img-block img:not(:first-child) {
+  margin-top: 64px;
+}
+.enterprise-spirit .text-block {
+  width: 600px;
+}
+.enterprise-spirit .text-block .vision {
+  margin-top: 110px;
+}
+/*办公环境*/
+.office-environment {
+  width: 100%;
+  height: 636px;
+  padding: 0 20px;
+  background: #f7f8f9;
+}
+.office-environment .environment-header {
+  margin-top: 60px;
+}
+.office-environment .imgs {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.office-environment .imgs img {
+  width: 436px;
+  height: 349px;
+}
+/*福利待遇*/
+.welfare {
+  width: 100%;
+}
+.welfare .welfare-header {
+  margin-top: 60px;
+}
+.welfare .content {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.welfare .content .item {
+  width: 470px;
+  margin-bottom: 50px;
+}
+.welfare .content .item .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welfare .content .item .label {
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+}
+.welfare .join-us {
+  margin-top: 10px;
+  text-align: center;
+}
+.welfare .join-us .btn {
+  width: 180px;
+}
